@@ -16,9 +16,8 @@ namespace DynamoDB
         {
             try
             {
-                // ❗ ВСТАВЬ СВОИ КЛЮЧИ (как в видео)
-                string access_key = "AKIAVGDN36AR762WPJ22";
-                string secret_key = "4cuyq1JlqTLLJU9z3XbpS3NXcW2/EW0toIVC1PD7";
+                string access_key = "YOUR_ACCESS_KEY";
+                string secret_key = "YOUR_SECRET_KEY";
 
                 var credentials = new BasicAWSCredentials(access_key, secret_key);
 
